@@ -1,0 +1,87 @@
+/* ===== Reset ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== Navigation ===== */
+.sidebar {
+  width: 250px;
+  background-color: #212529;
+  color: white;
+  padding: 1.5rem 1rem;
+  position: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  flex-grow: 1;
+}
+
+.nav-links li {
+  margin-bottom: 0.5rem;
+}
+
+.nav-links .section-title {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: #adb5bd;
+  font-weight: bold;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #f8f9fa;
+  padding: 0.5rem;
+  display: block;
+  border-radius: 0.375rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-links a:hover {
+  background-color: #343a40;
+}
+
+.nav-links a.active {
+  background-color: #0d6efd;
+  color: white;
+}
+
+/* ===== Copyright ===== */
+.copyright {
+  font-size: 0.75rem;
+  color: #adb5bd;
+  text-align: center;
+  margin-top: auto;
+  padding-top: 1.5rem;
+}
+  
+  /* ===== Seiten Inhalt ===== */
+  .main-content {
+    margin-left: 250px;
+    padding: 2rem;
+    flex-grow: 1;
+  }
+  
+  h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #333;
+    max-width: 700px;
+    line-height: 1.6;
+  }
+  

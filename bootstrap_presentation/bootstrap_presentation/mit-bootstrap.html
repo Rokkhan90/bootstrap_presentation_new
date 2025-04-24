@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mit Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body class="d-flex">
+
+  <!-- Navigations-Leiste und Copyright -->
+  <nav class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 250px; height: 100vh; position: fixed;">
+    <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+      <span class="fs-4">Bootstrap Präsentation</span>
+    </a>
+    <hr>
+  
+    <ul class="nav nav-pills flex-column mb-auto">
+      <!-- Startseite -->
+      <li>
+        <a href="index.html" class="nav-link text-white">Startseite</a>
+      </li>
+  
+      <!-- Abschnitt: Inhalt -->
+      <li class="mt-3">
+        <strong class="text-white">Inhalt</strong>
+      </li>
+      <li>
+        <a href="was-ist-bootstrap.html" class="nav-link text-white active">Was ist Bootstrap?</a>
+      </li>
+      <li>
+        <a href="wozu.html" class="nav-link text-white">Wofür wird es verwendet?</a>
+      </li>
+      <li>
+        <a href="grundprinzipien.html" class="nav-link text-white">Grundprinzipien</a>
+      </li>
+      <li>
+        <a href="beispiele.html" class="nav-link text-white">Beispiele</a>
+      </li>
+  
+      <!-- Abschnitt: Extras -->
+      <li class="mt-3">
+        <strong class="text-white">Extras</strong>
+      </li>
+      <li>
+        <a href="mit-bootstrap.html" class="nav-link text-white">Mit Bootstrap</a>
+      </li>
+      <li>
+        <a href="ohne-bootstrap.html" class="nav-link text-white">Ohne Bootstrap</a>
+      </li>
+  
+      <!-- Abschnitt: Quellen -->
+      <li class="mt-3">
+        <strong class="text-white">Quellen</strong>
+      </li>
+      <li>
+        <a href="quellen.html" class="nav-link text-white">Bootstrap Hilfe & Ressourcen</a>
+      </li>
+  
+      <!-- Abschnitt: Mobile Version -->
+      <li class="mt-3">
+        <strong class="text-white">Mobile Version</strong>
+      </li>
+      <li>
+        <a href="../bootstrap-presentation-mobile/html/presentation.html" class="nav-link text-white">
+          <i class="bi bi-phone"></i> Mobile-Präsentation
+        </a>
+      </li>
+    </ul>
+    <hr>
+  
+    <!-- Copyright -->
+    <div class="text-white text-center small mt-auto">
+      © 2025 Olejnik Sascha
+    </div>
+  </nav>
+
+  <!-- Seiten Inhalt -->
+  <main>
+  <div class="flex-grow-1 ms-250 p-4" style="margin-left: 250px;">
+    <h1>Mit Bootstrap</h1>
+    <p>Diese Seite Verwendet Bootstrap</p>
+    <h2 class="mt-4">Karte</h2>
+    <div class="card" style="width: 18rem;">
+      <img src="img/presentation_img.png" class="card-img-top" alt="Beispielbild">
+      <div class="card-body">
+        <h5 class="card-title">Bootstrap-Karte</h5>
+        <p class="card-text">Dies ist eine Karte, die mit Bootstrap erstellt wurde. Sie enthält ein Bild, einen Titel und Text.</p>
+        <a href="#" class="btn btn-primary">Mehr erfahren</a>
+      </div>
+    </div>
+    <form>
+      <h2 class="mt-4">Kontaktformular</h2>
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Max Mustermann">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">E-Mail</label>
+        <input type="email" class="form-control" id="email" placeholder="max@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Nachricht</label>
+        <textarea class="form-control" id="message" rows="3" placeholder="Deine Nachricht"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Absenden</button>
+    </form>
+  </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/javascript.js"></script>
+</body>
+</html>

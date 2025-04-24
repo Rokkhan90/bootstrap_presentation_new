@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Präsentation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Bootstrap Teil 1</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#was-ist-bootstrap">Was ist Bootstrap</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#wozu-bootstrap">Wozu wird Bootstrap verwendet</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#grundprinzipien">Grundprinzipien</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#beispiel">Beispiele</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#vorteile">Vorteile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#geschichte">Geschichte von Bootstrap</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#alternativen">Alternativen zu Bootstrap</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ressourcen">Nützliche Ressourcen</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../../bootstrap_presentation/index.html">Zur Desktop-Version</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <section id="was-ist-bootstrap">
+            <h2>Was ist Bootstrap?</h2>
+            <p>Bootstrap ist ein beliebtes Open-Source-Framework zur Entwicklung von responsiven und mobilen Webseiten. Es bietet vorgefertigte CSS- und JavaScript-Komponenten, die die Entwicklung beschleunigen.</p>
+        </section>
+        <hr>
+        <section id="wozu-bootstrap">
+            <h2>Wozu wird Bootstrap verwendet?</h2>
+            <p>Bootstrap wird verwendet, um schnell und einfach moderne, responsive Webseiten zu erstellen. Es hilft Entwicklern, sich auf die Funktionalität zu konzentrieren, anstatt sich mit dem Design von Grund auf zu beschäftigen.</p>
+        </section>
+        <hr>
+        <section id="grundprinzipien">
+            <h2>Grundprinzipien</h2>
+            <ul>
+                <li>Responsive Design: Webseiten passen sich automatisch an verschiedene Bildschirmgrößen an.</li>
+                <li>Mobile-First Ansatz: Bootstrap wurde mit einem Fokus auf mobile Geräte entwickelt.</li>
+                <li>Wiederverwendbare Komponenten: Buttons, Navigation, Modals und mehr sind vorgefertigt.</li>
+                <li>Grid-System: Ein flexibles Rasterlayout für die einfache Anordnung von Inhalten.</li>
+            </ul>
+        </section>
+        <hr>
+        <section id="beispiel">
+            <h2>Beispiele</h2>
+            <p>Hier sind einige Beispiele für Bootstrap-Komponenten:</p>
+            <div class="mb-3">
+                <button id="previewButton" class="btn btn-primary">Vorschau-Button</button>
+            </div>
+            <div class="mb-3">
+                <label for="buttonText">Button-Text:</label>
+                <input type="text" id="buttonText" placeholder="Geben Sie den Button-Text ein">
+            </div>
+            <div class="mb-3">
+                <label for="buttonColor">Button-Farbe:</label>
+                <select id="buttonColor">
+                    <option value="btn-primary">Blau</option>
+                    <option value="btn-secondary">Grau</option>
+                    <option value="btn-success">Grün</option>
+                    <option value="btn-danger">Rot</option>
+                    <option value="btn-warning">Gelb</option>
+                    <option value="btn-info">Türkis</option>
+                    <option value="btn-light">Hell</option>
+                    <option value="btn-dark">Dunkel</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <button id="updateButton" class="btn btn-outline-primary">Button aktualisieren</button>
+            </div>
+            <div class="mb-3">
+                <label for="buttonCode">HTML-Code des Buttons:</label>
+                <textarea id="buttonCode" class="form-control" rows="3" readonly></textarea>
+            </div>
+        </section>
+        <hr>
+        <section id="vorteile">
+            <h2>Vorteile von Bootstrap</h2>
+            <ul>
+                <li>Schnelle Entwicklung durch vorgefertigte Komponenten.</li>
+                <li>Einheitliches Design über verschiedene Browser hinweg.</li>
+                <li>Große Community und umfangreiche Dokumentation.</li>
+                <li>Einfach zu erlernen und anzuwenden.</li>
+            </ul>
+        </section>
+        <hr>
+        <section id="geschichte">
+            <h2>Geschichte von Bootstrap</h2>
+            <p>Bootstrap wurde ursprünglich von Mark Otto und Jacob Thornton bei Twitter entwickelt. Es wurde 2011 als Open-Source-Projekt veröffentlicht und hat sich seitdem zu einem der beliebtesten Frontend-Frameworks entwickelt.</p>
+            <p>Die erste Version von Bootstrap konzentrierte sich auf einheitliche Designs für interne Tools bei Twitter. Später wurde es für die Öffentlichkeit freigegeben und hat sich kontinuierlich weiterentwickelt.</p>
+        </section>
+        <hr>
+        <section id="alternativen">
+            <h2>Alternativen zu Bootstrap</h2>
+            <ul>
+                <li>Foundation: Ein weiteres beliebtes Framework für responsive Webseiten.</li>
+                <li>Bulma: Ein modernes CSS-Framework, das auf Flexbox basiert.</li>
+                <li>Materialize: Ein Framework, das auf Googles Material Design basiert.</li>
+                <li>Tailwind CSS: Ein Utility-First-Framework für benutzerdefinierte Designs.</li>
+            </ul>
+        </section>
+        <hr>
+        <section id="ressourcen">
+            <h2>Nützliche Ressourcen</h2>
+            <ul>
+                <li><a href="https://getbootstrap.com/" target="_blank">Offizielle Bootstrap-Dokumentation</a></li>
+                <li><a href="https://www.w3schools.com/bootstrap/" target="_blank">Bootstrap-Tutorials bei W3Schools</a></li>
+                <li><a href="https://stackoverflow.com/questions/tagged/bootstrap" target="_blank">Bootstrap-Fragen auf Stack Overflow</a></li>
+                <li><a href="https://github.com/twbs/bootstrap" target="_blank">Bootstrap auf GitHub</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>&copy; 2025 Bootstrap Dokumentation</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>    

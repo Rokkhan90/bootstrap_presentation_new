@@ -1,0 +1,128 @@
+
+/* ==== Links und Icons von was-ist-bootstrap.html und quellen.html ==== */
+.subtle-link {
+    color: inherit; 
+    text-decoration: none; 
+    display: inline-block;
+    transition: color 0.2s ease, text-decoration 0.2s ease, transform 0.2s ease;
+  }
+  .subtle-link:hover {
+    color: #0d6efd; 
+    text-decoration: underline;
+    transform: scale(1.05);
+  }
+  .bi-youtube {
+    color: #ff0000; 
+  }
+  .bi-stack-overflow {
+    color: #f48024; 
+  }
+  .bi-bootstrap {
+    color: #563d7c; 
+  }
+/* ==== Karte von ohne-bootstrap.html ==== */
+  .custom-card {
+    width: 18rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .custom-card-img {
+    width: 100%;
+    height: auto;
+  }
+  .custom-card-body {
+    padding: 1rem;
+  }
+  .custom-card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  .custom-card-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .custom-card-btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    transition: background-color 0.2s ease;
+  }
+  .custom-card-btn:hover {
+    background-color: #0056b3;
+  }
+  /* ==== Kontaktformular von ohne-bootstrap.html ==== */
+  .custom-form-container {
+    max-width: 600px; 
+    margin: 0; 
+    padding: 1rem; 
+  }
+  
+  .custom-form {
+    display: flex;
+    flex-direction: column; 
+    gap: 1rem; 
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 0.5rem; 
+  }
+  
+  input, textarea {
+    width: 100%; 
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+  }
+  
+  textarea {
+    resize: vertical; 
+  }
+  
+  .custom-btn {
+    align-self: flex-start; 
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .custom-btn:hover {
+    background-color: #0056b3;
+  }
+
+  /* ==== Mobile Navigation ==== */
+  /*
+  @media (max-width: 768px) {
+    nav {
+      width: 80px;
+    }
+  
+    .nav-link {
+      justify-content: center;
+    }
+  
+    .nav-link i {
+      font-size: 1.5rem;
+    }
+  
+    .nav-link span {
+      display: none;
+    }
+  }
+    */

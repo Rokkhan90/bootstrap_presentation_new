@@ -1,0 +1,19 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar {
+    min-height: 100vh;
+    background-color: #343a40;
+  }
+  .sidebar a {
+    color: #adb5bd;
+    text-decoration: none;
+  }
+  .sidebar a:hover {
+    color: white;
+  }
+  .content {
+    padding: 2rem;
+  }

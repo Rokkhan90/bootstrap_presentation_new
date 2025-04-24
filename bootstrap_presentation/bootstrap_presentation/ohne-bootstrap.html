@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ohne Bootstrap</title>
+  <link rel="stylesheet" href="css/style-ohne-bootstrap.css" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+ <!-- Navigations-Leiste und Copyright -->
+ <nav class="sidebar">
+  <div class="nav-title">Bootstrap Präsentation</div>
+  <ul class="nav-links">
+    <!-- Startseite -->
+    <li><a href="index.html">Startseite</a></li>
+
+    <!-- Abschnitt: Inhalt -->
+    <li class="section-title">Inhalt</li>
+    <li><a href="was-ist-bootstrap.html">Was ist Bootstrap?</a></li>
+    <li><a href="wozu.html">Wofür wird es verwendet?</a></li>
+    <li><a href="grundprinzipien.html">Grundprinzipien</a></li>
+    <li><a href="beispiele.html">Beispiele</a></li>
+
+    <!-- Abschnitt: Extras -->
+    <li class="section-title">Extras</li>
+    <li><a href="mit-bootstrap.html">Mit Bootstrap</a></li>
+    <li><a href="ohne-bootstrap.html" class="active">Ohne Bootstrap</a></li>
+
+    <!-- Abschnitt: Quellen -->
+    <li class="section-title">Quellen</li>
+    <li><a href="quellen.html">Bootstrap Hilfe & Ressourcen</a></li>
+
+    <!-- Abschnitt: Mobile Version -->
+    <li class="section-title">Mobile Version</li>
+    <li><a href="../bootstrap-presentation-mobile/html/presentation.html">Mobile-Präsentation</a></li>
+  </ul>
+  <div class="copyright">© 2025 Olejnik Sascha</div>
+</nav>
+
+  <!-- Seiten Inhalt -->
+  <main class="main-content">
+    <h1>Ohne Bootstrap</h1>
+    <p>Diese Seite verwendet kein Bootstrap, sondern nur CSS für Layout und Stil.</p>
+    <h2 class="h2-class">Karte</h2>
+    <div class="custom-card">
+      <img src="img/presentation_img.png" alt="Beispielbild" class="custom-card-img">
+      <div class="custom-card-body">
+        <h5 class="custom-card-title">CSS-Karte</h5>
+        <p class="custom-card-text">Dies ist eine Karte, die nur mit CSS erstellt wurde. Sie enthält ein Bild, einen Titel und Text.</p>
+        <a href="#" class="custom-card-btn">Mehr erfahren</a>
+      </div>
+    </div>
+    <div class="custom-form-container">
+      <h2 class="h2-class">Kontaktformular</h2>
+      <form class="custom-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Max Mustermann">
+        </div>
+        <div class="form-group">
+          <label for="email">E-Mail</label>
+          <input type="email" id="email" placeholder="max@example.com">
+        </div>
+        <div class="form-group">
+          <label for="message">Nachricht</label>
+          <textarea id="message" rows="3" placeholder="Deine Nachricht"></textarea>
+        </div>
+        <button type="submit" class="custom-btn">Absenden</button>
+      </form>
+    </div>
+  </main>
+
+</body>
+</html>

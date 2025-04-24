@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Startseite</title>
+  <!-- Bootstrap CSS mit CDN-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+
+<body class="d-flex">
+
+  <!-- Navigations-Leiste und Copyright -->
+  <nav class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 250px; height: 100vh; position: fixed;">
+    <!-- d-flex = Aktiviert Flexbox (display: flex) -->
+    <!-- flex-column = Richtet die Flexbox-Elemente vertikal aus (flex-direction: column) -->
+    <!-- flex-shrink-0 = Verhindert, dass das Element schrumpft, wenn der Platz begrenzt ist -->
+    <!-- p-3 = Fügt einen Padding von 1rem (16px) rund um das Element hinzu -->
+    <!-- text-bg-dark = Setzt den Hintergrund auf dunkel und den Text auf hell -->
+    <!-- style="width: 250px; height: 100vh; position: fixed;" = Setzt die Breite auf 250px, die Höhe auf 100% des Viewports und fixiert die Position -->
+  
+    <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+      <!-- align-items-center = Zentriert die Inhalte vertikal innerhalb des Flexcontainers -->
+      <!-- mb-3 = Fügt einen unteren Abstand von 1rem (16px) hinzu -->
+      <!-- mb-md-0 = Entfernt den unteren Abstand auf mittleren und größeren Bildschirmen -->
+      <!-- me-md-auto = Fügt auf mittleren und größeren Bildschirmen einen automatischen rechten Abstand hinzu -->
+      <!-- text-white = Setzt die Textfarbe auf weiß -->
+      <!-- text-decoration-none = Entfernt die Unterstreichung des Links -->
+      <span class="fs-4">Bootstrap Präsentation</span>
+      <!-- fs-4 = Setzt die Schriftgröße auf 1.5rem -->
+    </a>
+    <hr>
+    <!-- hr = Fügt eine horizontale Linie ein -->
+  
+    <ul class="nav nav-pills flex-column mb-auto">
+      <!-- nav = Definiert eine Navigationsliste -->
+      <!-- nav-pills = Aktiviert das Styling für Navigations-Links mit Pillen-Design -->
+      <!-- flex-column = Richtet die Navigationspunkte vertikal aus -->
+      <!-- mb-auto = Fügt automatisch einen unteren Abstand hinzu, um den restlichen Platz zu füllen -->
+  
+      <li>
+        <a href="index.html" class="nav-link text-white">
+          <!-- nav-link = Definiert einen Link innerhalb der Navigation -->
+          <!-- text-white = Setzt die Textfarbe auf weiß -->
+          Startseite
+        </a>
+      </li>
+  
+      <li class="mt-3">
+        <!-- mt-3 = Fügt einen oberen Abstand von 1rem (16px) hinzu -->
+        <strong class="text-white">Inhalt</strong>
+        <!-- strong = Hebt den Text hervor (fett) -->
+        <!-- text-white = Setzt die Textfarbe auf weiß -->
+      </li>
+  
+      <li>
+        <a href="was-ist-bootstrap.html" class="nav-link text-white active">
+          <!-- active = Markiert den aktuellen Link als aktiv (hervorgehoben) -->
+          Was ist Bootstrap?
+        </a>
+      </li>
+  
+      <li>
+        <a href="wozu.html" class="nav-link text-white">
+          Wofür wird es verwendet?
+        </a>
+      </li>
+  
+      <li>
+        <a href="grundprinzipien.html" class="nav-link text-white">
+          Grundprinzipien
+        </a>
+      </li>
+  
+      <li>
+        <a href="beispiele.html" class="nav-link text-white">
+          Beispiele
+        </a>
+      </li>
+  
+      <li class="mt-3">
+        <strong class="text-white">Extras</strong>
+      </li>
+  
+      <li>
+        <a href="mit-bootstrap.html" class="nav-link text-white">
+          Mit Bootstrap
+        </a>
+      </li>
+  
+      <li>
+        <a href="ohne-bootstrap.html" class="nav-link text-white">
+          Ohne Bootstrap
+        </a>
+      </li>
+  
+      <li class="mt-3">
+        <strong class="text-white">Quellen</strong>
+      </li>
+  
+      <li>
+        <a href="quellen.html" class="nav-link text-white">
+          Bootstrap Hilfe & Ressourcen
+        </a>
+      </li>
+          <!-- Abschnitt: Mobile Version -->
+    <li class="mt-3">
+      <strong class="text-white">Mobile Version</strong>
+    </li>
+    <li>
+      <a href="../bootstrap-presentation-mobile/html/presentation.html" class="nav-link text-white">
+        <i class="bi bi-phone"></i> Mobile-Präsentation
+      </a>
+    </li>
+    </ul>
+    <hr>
+    <div class="text-white text-center small mt-auto">
+      <!-- text-center = Zentriert den Text horizontal -->
+      <!-- small = Setzt die Schriftgröße auf eine kleinere Größe -->
+      <!-- mt-auto = Fügt automatisch einen oberen Abstand hinzu, um den restlichen Platz zu füllen -->
+      © 2025 Olejnik Sascha
+    </div>
+  </nav>
+
+  <!-- Seiten Inhalt -->
+  <main>
+    <div class="flex-grow-1 ms-250 p-4" style="margin-left: 250px;">
+      <h1>Startseite</h1>
+        <p>Willkommen zur...</p>
+      <div class="d-flex justify-content-center">
+        <img 
+          src="img/presentation_img.png" alt="Bootstrap Präsentation" class="img-fluid rounded-end-pill shadow" style="max-height: 90vh; object-fit: contain;" 
+        />
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/javascript.js"></script>
+</body>
+</html>
